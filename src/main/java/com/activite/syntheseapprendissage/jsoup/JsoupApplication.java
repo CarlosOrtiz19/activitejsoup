@@ -19,7 +19,7 @@ public class JsoupApplication {
 
     @Bean
     CommandLineRunner commandLineRunner(){return args -> {
-        System.out.println(watchPageService.getUrl("https://jsoup.org/"));
+        watchPageService.getUrl("url");
     };}
 
 }
